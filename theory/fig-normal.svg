@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 560" width="620" height="560" role="img" aria-labelledby="fig2-title fig2-desc">
+<title id="fig2-title">The generating radius points to the true contact point</title>
+<desc id="fig2-desc">Enlarged view of triangle BDC. The unit normal n from the generating center C points to the contact point D. The profile point P lies at distance p along this direction, on the profile curve.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e6edf3"/></marker>
+  <marker id="arrow-gold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f2c14e"/></marker>
+  <clipPath id="vp"><rect x="0" y="0" width="620" height="560"/></clipPath>
+</defs>
+<style>
+  .base { stroke:#8b98a5; stroke-width:1.7; stroke-dasharray:7 6; fill:none; }
+  .roll { stroke:#6ea8fe; stroke-width:1.8; fill:none; }
+  .vec { stroke:#e6edf3; stroke-width:2.6; fill:none; }
+  .gen { stroke:#f2c14e; stroke-width:3; fill:none; }
+  .prof { stroke:#f2c14e; stroke-width:3.4; fill:none; }
+  .cen { stroke:#6ea8fe; stroke-width:1.6; stroke-dasharray:4 4; fill:none; }
+  .tangent { stroke:#9aa4ad; stroke-width:1.4; stroke-dasharray:5 5; fill:none; }
+  .arc { stroke:#9aa4ad; stroke-width:1.5; fill:none; }
+  .pt { fill:#0e1116; stroke:#e6edf3; stroke-width:2.2; }
+  .pt-gold { fill:#f2c14e; stroke:#0e1116; stroke-width:1; }
+  .lab { font-family:'Segoe UI',system-ui,sans-serif; font-size:15px; fill:#e6edf3; }
+  .var { font-family:'Cambria Math',Georgia,serif; font-style:italic; font-size:19px; fill:#e6edf3; }
+  .muted { font-family:'Segoe UI',system-ui,sans-serif; font-size:12.5px; fill:#9aa4ad; }
+</style>
+<g clip-path="url(#vp)">
+<circle class="base" cx="-280" cy="854" r="660"/>
+<circle class="roll" cx="342.25" cy="231.75" r="220"/>
+<line class="vec" x1="342.25" y1="231.75" x2="186.69" y2="387.31" marker-end="url(#arrow)"/>
+<line class="vec" x1="342.25" y1="231.75" x2="452.25" y2="231.75" marker-end="url(#arrow)"/>
+<path class="cen" d="M 525.12 419.96 L 523.1 410.7 L 520.93 401.41 L 518.59 392.07 L 516.08 382.69 L 513.41 373.29 L 510.57 363.86 L 507.56 354.41 L 504.38 344.94 L 501.02 335.46 L 497.49 325.97 L 493.77 316.48 L 489.88 306.99 L 485.81 297.51 L 481.56 288.04 L 477.13 278.58 L 472.52 269.15 L 467.73 259.75 L 462.75 250.37 L 457.59 241.04 L 452.25 231.75 L 446.73 222.5 L 441.03 213.31 L 435.15 204.17 L 429.09 195.1 L 422.85 186.09 L 416.43 177.16 L 409.84 168.31 L 403.07 159.54 L 396.13 150.85 L 389.02 142.26 L 381.74 133.76 L 374.29 125.37 L 366.68 117.08 L 358.91 108.91 L 350.97 100.85 L 342.88 92.91 L 334.64 85.09 L 326.24 77.41 L 317.7 69.86 L 309.01 62.44"/>
+<path class="prof" d="M 369.03 375.01 L 367.59 371.3 L 366.13 367.59 L 364.63 363.89 L 363.09 360.18 L 361.52 356.47 L 359.91 352.77 L 358.26 349.06 L 356.58 345.36 L 354.87 341.66 L 353.12 337.96 L 351.33 334.27 L 349.5 330.58 L 347.64 326.89 L 345.75 323.21 L 343.82 319.53 L 341.85 315.86 L 339.84 312.2 L 337.8 308.54 L 335.72 304.89 L 333.61 301.25 L 331.46 297.61 L 329.28 293.99 L 327.05 290.37 L 324.8 286.76 L 322.5 283.17 L 320.17 279.58 L 317.81 276.01 L 315.41 272.45 L 312.97 268.9 L 310.5 265.37 L 307.99 261.84 L 305.45 258.33 L 302.87 254.84 L 300.26 251.36 L 297.61 247.9 L 294.92 244.45 L 292.21 241.02 L 289.46 237.61 L 286.67 234.21 L 283.85 230.83"/>
+<line class="gen" x1="452.25" y1="231.75" x2="186.69" y2="387.31" marker-end="url(#arrow-gold)"/>
+<line class="tangent" x1="368.99" y1="361.65" x2="298.23" y2="240.85"/>
+<path class="arc" d="M 422.25 231.75 A 80 80 0 0 1 285.69 288.31"/>
+<circle class="pt" cx="342.25" cy="231.75" r="5"/>
+<circle class="pt-gold" cx="186.69" cy="387.31" r="5.5"/>
+<circle class="pt" cx="452.25" cy="231.75" r="5"/>
+<circle class="pt-gold" cx="333.61" cy="301.25" r="4.5"/>
+</g>
+<text class="var" x="334.25" y="213.75" text-anchor="end">B</text>
+<text class="var" x="466.25" y="219.75">C</text>
+<text class="var" x="172.69" y="413.31" text-anchor="end">D</text>
+<text class="var" x="347.61" y="293.25">P</text>
+<text class="var" x="397.25" y="219.75" text-anchor="middle">e</text>
+<text class="var" x="254.47" y="313.53" text-anchor="end">r</text>
+<text class="var" x="410.93" y="252.5">p</text>
+<text class="var" x="384.87" y="323.66">β</text>
+<text class="var" x="311.47" y="335.53" text-anchor="end">n</text>
+<text class="muted" x="415.61" y="387.25">profile tangent</text>
+<text class="muted" x="24" y="34">enlarged view of the contact region</text>
+</svg>

@@ -1,0 +1,43 @@
+﻿CYROACT Version 0.0.1 (23.September.2026) — Cycloidal Robotic Actuation Technology
+3D Viewer (เว็บ) — Copyright & Third-Party Notices
+=================================================================================
+
+ส่วนที่ 1 — ลิขสิทธิ์ของผลงานต้นฉบับ (Original Work)
+-----------------------------------------------------
+
+โปรแกรมนี้ (โค้ดทั้งหมดที่เบราว์เซอร์โหลดจากโฟลเดอร์นี้) รวมถึงสมการโปรไฟล์
+จานไซคลอยด์ (Cycloid disc) และที่มาของสมการที่ใช้สร้างรูปทรงทั้งหมด
+เป็นผลงานต้นฉบับของผู้พัฒนา ไม่ได้คัดลอกจากบุคคลที่สาม:
+
+  © 2026 Pisitpong Chadit — สงวนลิขสิทธิ์ (All rights reserved)
+
+การใช้งาน จำหน่าย หรือดัดแปลงตัวโปรแกรมนี้ ขึ้นกับเงื่อนไขที่ผู้ถือลิขสิทธิ์
+ข้างต้นกำหนด — ไม่ได้อยู่ภายใต้สัญญาอนุญาต MIT ของไลบรารีในส่วนที่ 2
+
+ส่วนที่ 2 — ไลบรารีของบุคคลที่สาม (Third-Party Notices)
+---------------------------------------------------------
+
+โปรแกรมนี้ฝังไลบรารีของบุคคลที่สาม 2 รายการ ทั้งคู่ใช้สัญญาอนุญาต MIT:
+
+  • three.js 0.180.0   — Copyright © 2010-2025 three.js authors   — https://threejs.org
+  • lil-gui 0.20.0     — Copyright (c) 2019 George Michael Brower — https://lil-gui.georgealways.com
+
+MIT License — ข้อความสัญญาอนุญาต (ใช้ร่วมกับทั้งสองไลบรารีข้างต้น):
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

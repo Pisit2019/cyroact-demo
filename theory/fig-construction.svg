@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 780" width="820" height="780" role="img" aria-labelledby="fig1-title fig1-desc">
+<title id="fig1-title">Geometric construction of the generating center</title>
+<desc id="fig1-desc">Base circle of radius R centered at O, externally tangent rolling circle of radius r centered at B, contact point D, generating center C, angle theta and rolling angle beta.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e6edf3"/></marker>
+  <marker id="arrow-gold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f2c14e"/></marker>
+</defs>
+<style>
+  .axis { stroke:#4b5563; stroke-width:1.4; fill:none; }
+  .base { stroke:#8b98a5; stroke-width:1.7; stroke-dasharray:7 6; fill:none; }
+  .roll { stroke:#6ea8fe; stroke-width:1.7; fill:none; }
+  .vec { stroke:#e6edf3; stroke-width:2.2; fill:none; }
+  .gen { stroke:#f2c14e; stroke-width:2.2; fill:none; }
+  .arc { stroke:#9aa4ad; stroke-width:1.4; fill:none; }
+  .pt { fill:#0e1116; stroke:#e6edf3; stroke-width:2; }
+  .pt-gold { fill:#f2c14e; stroke:#0e1116; stroke-width:1; }
+  .lab { font-family:'Segoe UI',system-ui,sans-serif; font-size:15px; fill:#e6edf3; }
+  .var { font-family:'Cambria Math',Georgia,serif; font-style:italic; font-size:17px; fill:#e6edf3; }
+  .muted { font-family:'Segoe UI',system-ui,sans-serif; font-size:12.5px; fill:#9aa4ad; }
+  .box { fill:none; stroke:#4b5563; stroke-width:1.2; stroke-dasharray:5 5; }
+</style>
+<line class="axis" x1="72" y1="430" x2="790" y2="430" marker-end="url(#arrow)"/>
+<line class="axis" x1="380" y1="430" x2="380" y2="58" marker-end="url(#arrow)"/>
+<circle class="base" cx="380" cy="430" r="288"/>
+<circle class="roll" cx="651.53" cy="158.47" r="96"/>
+<line class="vec" x1="380" y1="430" x2="583.65" y2="226.35" marker-end="url(#arrow)"/>
+<line class="vec" x1="583.65" y1="226.35" x2="651.53" y2="158.47" marker-end="url(#arrow)"/>
+<line class="vec" x1="651.53" y1="158.47" x2="699.53" y2="158.47" marker-end="url(#arrow)"/>
+<line class="gen" x1="699.53" y1="158.47" x2="583.65" y2="226.35" marker-end="url(#arrow-gold)"/>
+<path class="arc" d="M 458 430 A 78 78 0 0 0 435.15 374.85"/>
+<path class="arc" d="M 711.53 158.47 A 60 60 0 0 1 609.1 200.9"/>
+<rect class="box" x="524" y="75" width="235" height="206" rx="8"/>
+<text class="muted" x="532" y="72">detail in Fig. 2</text>
+<circle class="pt" cx="380" cy="430" r="4"/>
+<circle class="pt" cx="651.53" cy="158.47" r="4"/>
+<circle class="pt-gold" cx="583.65" cy="226.35" r="4.5"/>
+<circle class="pt" cx="699.53" cy="158.47" r="4"/>
+<text class="var" x="356" y="454" text-anchor="end">O</text>
+<text class="var" x="796" y="424" text-anchor="end">x</text>
+<text class="var" x="390" y="58">y</text>
+<text class="var" x="641" y="143" text-anchor="end">B</text>
+<text class="var" x="574" y="250" text-anchor="end">D</text>
+<text class="var" x="714" y="142">C</text>
+<text class="var" x="464" y="322" text-anchor="middle">R</text>
+<text class="var" x="630" y="207">r</text>
+<text class="var" x="676" y="146" text-anchor="middle">e</text>
+<text class="var" x="464.06" y="408.15">θ</text>
+<text class="var" x="686.49" y="229.9">β</text>
+<text class="muted" x="96" y="360">base circle (R)</text>
+</svg>
