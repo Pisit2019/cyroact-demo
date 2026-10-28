@@ -144,6 +144,22 @@
         color: #9a9a9a;
       }
 
+      .sb-compact {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        margin-top: 8px;
+        font-size: 11px;
+        color: #b6bdc4;
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .sb-compact .sb-toggle {
+        width: 13px;
+        height: 13px;
+      }
+
       .sb-module {
         border-bottom: 1px solid #333333;
       }
@@ -216,6 +232,58 @@
         display: flex;
         flex-direction: column;
         padding: 2px 6px 8px;
+      }
+
+      /* Compact: ตลับลูกปืน 3 ชิ้นยุบเป็นแถวเดียว (กางดู component ได้) */
+      .sb-bearing {
+        margin: 2px 0;
+      }
+
+      .sb-bearing-head {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 5px 6px 5px 10px;
+        border: 0;
+        border-radius: 5px;
+        background: transparent;
+        font: inherit;
+        font-size: 11px;
+        font-weight: 600;
+        color: #c7ccd1;
+        text-align: left;
+        cursor: pointer;
+      }
+
+      .sb-bearing-head:hover {
+        background: #2a2a2a;
+      }
+
+      .sb-bearing-name {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .sb-bearing.collapsed .sb-caret {
+        transform: rotate(-90deg);
+      }
+
+      .sb-bearing.collapsed .sb-bearing-parts {
+        display: none;
+      }
+
+      .sb-bearing-parts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6px;
+        padding-left: 8px;
+        border-left: 1px solid #333333;
+      }
+
+      .sb-bearing[hidden],
+      .sb-part-row[hidden] {
+        display: none;
       }
 
       .sb-part-row {
@@ -355,7 +423,7 @@
         z-index: 12; /* เหนือ sidebar (10) — ห้ามถูกบัง ทุกขนาดจอ */
       }
     </style>
-    <script type="module" crossorigin src="./assets/index-DpX6ZFkY.js"></script>
+    <script type="module" crossorigin src="./assets/index-DQnotAJt.js"></script>
   </head>
   <body>
     <div id="app">
