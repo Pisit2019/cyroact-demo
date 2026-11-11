@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cyroact-demo.pages.dev/sitemap.xml
